@@ -6,7 +6,7 @@
     try {
             $cnx= new PDO($dsn,$user,$password);
             
-            print "Connexion réussie.";
+            
     }
     catch(PDOException $e)  {
 		
