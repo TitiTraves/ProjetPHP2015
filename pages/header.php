@@ -50,7 +50,7 @@
                                     <li><a href="http://127.0.0.1:6080/ProjetPHP2015-master/pages/nouveauMateriel.php">Matériel</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#6">Recherche</a></li>
+                            <li><a href="http://127.0.0.1:6080/ProjetPHP2015-master/pages/recherche.php">Recherche</a></li>
                             <li><a href="#7">A propos</a></li>
                             <li><a href="#8">Créer un compte</a></li>
                             <li><a href="#9">S'identifier</a></li>
