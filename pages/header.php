@@ -4,8 +4,12 @@
 
 
 
-  <body>
-
+  <body >
+<script>
+    $(document).ready(function() {
+        $('a[href="' + this.location.pathname + '"]').parent().addClass('active');
+    });
+</script>
     <div class="container">
 
         <div class="jumbotron" >
@@ -36,20 +40,20 @@
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Accueil<span class="sr-only">(current)</span></a></li>
+                            <li><a href="../index.php">Accueil<span class="sr-only">(current)</span></a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nouveautés <span class="caret"></span></a>
+                                <a href="#2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nouveautés <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">PC</a></li>
-                                    <li><a href="#">Consoles</a></li>
+                                    <li><a href="http://127.0.0.1:6080/ProjetPHP2015-master/pages/nouveauPC.php">PC</a></li>
+                                    <li><a href="http://127.0.0.1:6080/ProjetPHP2015-master/pages/nouveauConsole.php">Consoles</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">Matériel</a></li>
+                                    <li><a href="http://127.0.0.1:6080/ProjetPHP2015-master/pages/nouveauMateriel.php">Matériel</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Recherche</a></li>
-                            <li><a href="#">A propos</a></li>
-                            <li><a href="#">Créer un compte</a></li>
-                            <li><a href="#">S'identifier</a></li>
+                            <li><a href="#6">Recherche</a></li>
+                            <li><a href="#7">A propos</a></li>
+                            <li><a href="#8">Créer un compte</a></li>
+                            <li><a href="#9">S'identifier</a></li>
 
 
 
